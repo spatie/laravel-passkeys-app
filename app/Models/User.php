@@ -6,10 +6,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Spatie\LaravelPasskeys\Models\Concerns\HasPasskeys;
+use Spatie\LaravelPasskeys\Models\Concerns\InteractsWithPasskeys;
 
-class User extends Authenticatable
+class User extends Authenticatable implements HasPasskeys
 {
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, InteractsWithPasskeys;
 
     /**
      * The attributes that are mass assignable.

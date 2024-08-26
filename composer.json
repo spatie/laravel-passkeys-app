@@ -4,12 +4,20 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "repositories": [{
+        "type": "path",
+        "url": "../laravel-passkeys"
+    }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.4",
-        "livewire/volt": "^1.0"
+        "livewire/volt": "^1.0",
+        "spatie/laravel-passkeys": "dev-main",
+        "spatie/laravel-ray": "^1.37",
+        "spatie/laravel-tail": "^4.5"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

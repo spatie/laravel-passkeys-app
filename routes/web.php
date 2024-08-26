@@ -12,4 +12,6 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::passkeys();
+
 require __DIR__.'/auth.php';
