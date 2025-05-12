@@ -1,6 +1,6 @@
 # Laravel Passkeys Demo app
 
-This is a demo application to showcase the [spatie/laravel-passkeys](https://spatie.be/docs/laravel-package) package which allows you to authenticate users using passkeys.
+This is a demo application to showcase the [spatie/laravel-passkeys](https://spatie.be/docs/laravel-passkeys) package which allows you to authenticate users using passkeys.
 
 ## Support us
 
