@@ -3,4 +3,4 @@ import {browserSupportsWebAuthn, startRegistration, startAuthentication, } from 
 
 window.startRegistration = startRegistration;
 window.browserSupportsWebAuthn = browserSupportsWebAuthn;
-window.startAuthentication = startAuthentication;;
+window.startAuthentication = startAuthentication;
