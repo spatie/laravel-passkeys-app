@@ -4,7 +4,7 @@ This is a demo application to showcase the [spatie/laravel-passkeys](https://spa
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-passkeys.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-passkeys)
+[<img src="https://spatie.be/github-ad-image/laravel-passkeys.jpg" width="419px" />](https://spatie.be/github-ad-click/laravel-passkeys)
 
 ## Installation
 
